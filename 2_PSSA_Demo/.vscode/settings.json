@@ -1,3 +1,4 @@
 {
-    "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1"
+    "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1",
+    "powershell.powerShellExePath": "C:\\chris\\git\\PowerShell\\src\\powershell-win-core\\bin\\Release\\netcoreapp3.0\\win7-x64\\publish\\pwsh.exe"
 }

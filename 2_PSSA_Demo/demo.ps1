@@ -40,9 +40,7 @@ https://github.com/bergmeister/PSScriptAnalyzer-VSCodeIntegration
 ###################################################################
 
 # PSAvoidUsingCmdletAlias for implicit 'Get-' alias (if applicable on the given platform)
-service
 curl
-# Show on Ubuntu: Invoke-ScriptAnalyzer -ScriptDefinition 'service'
 
 
 ###################################################################
