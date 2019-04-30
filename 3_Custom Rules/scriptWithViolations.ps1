@@ -1,3 +1,6 @@
+#[Diagnostics.CodeAnalysis.SuppressMessageAttribute('CustomPSScriptAnalyzerRules\WarningAboutDoSomething', '')]
+Param()
+
 # Custom rule
 Invoke-Something
 

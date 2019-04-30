@@ -1,4 +1,3 @@
-
 Get-Command -Module InjectionHunter
 
 Invoke-Expression

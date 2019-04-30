@@ -1,7 +1,7 @@
 # Auto-Fix
 gci
 
-# Formatting: Ctrl + K + F 
+# Formatting: Ctrl + K + F
 if ($true)
 {
 
@@ -16,6 +16,10 @@ if ($a > $b) {
 if ($a = $b) {
 
 }
+
+# PSAvoidUsingCmdletAlias for implicit 'Get-' alias (if applicable on the given platform)
+service
+curl
 
 # PSUseCompatibleCmdlets
 Compress-Archive
@@ -33,12 +37,6 @@ Out-File -LiteralPath $literalPath -NoNewline
 # PSUseCompatibleTypes
 [System.Management.Automation.SemanticVersion]"1.18.0-rc1"
 [System.Windows.Forms.Form]::ActiveForm # WinForms not loaded by default and therefore not part of the JSON files
-
-###################################################################
-
-# PSAvoidUsingCmdletAlias for implicit 'Get-' alias (if applicable on the given platform)
-service
-curl
 
 ###################################################################
 
