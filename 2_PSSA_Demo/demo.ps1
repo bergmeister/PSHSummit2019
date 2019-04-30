@@ -32,17 +32,14 @@ Out-File -LiteralPath $literalPath -NoNewline
 
 # PSUseCompatibleTypes
 [System.Management.Automation.SemanticVersion]"1.18.0-rc1"
-
-# PSSA Settings/VSCode integration:
-https://github.com/bergmeister/PSScriptAnalyzer-VSCodeIntegration
-
+[System.Windows.Forms.Form]::ActiveForm # WinForms not loaded by default and therefore not part of the JSON files
 
 ###################################################################
 
 # PSAvoidUsingCmdletAlias for implicit 'Get-' alias (if applicable on the given platform)
+service
 curl
-
 
 ###################################################################
 
-Show-Ast { if($a -eq "$b.wth()"){ } }
+Show-Ast { if($a -eq "$b.sth()"){ } }
